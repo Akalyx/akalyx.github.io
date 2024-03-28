@@ -6,11 +6,11 @@ const config = {
 		adapter: adapter({
 			fallback: '404.html'
 		}),
-		paths: {
-			base: '/akalyx/build',
-			// base: '/akalyx',
-			// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		}
+		// paths: {
+		// 	base: '',
+		// 	// base: '/akalyx',
+		// 	// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		// }
 	}
 };
 
