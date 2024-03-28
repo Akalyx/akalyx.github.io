@@ -8,7 +8,7 @@ const config = {
 		}),
 		paths: {
 			base: '/akalyx',
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			// base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
