@@ -7,6 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
+			base: '/akalyx.github.io',
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
