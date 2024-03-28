@@ -3,6 +3,7 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		prerender: true,
 		adapter: adapter({
 			fallback: '404.html'
 		}),
